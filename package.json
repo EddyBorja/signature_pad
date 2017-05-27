@@ -9,8 +9,8 @@
     "url": "https://github.com/szimek"
   },
   "license": "MIT",
-  "main": "dist/signature_pad.js",
-  "module": "dist/signature_pad.mjs",
+  "main": "dist/signature_pad_umd.js",
+  "module": "dist/signature_pad.js",
   "scripts": {
     "build": "gulp",
     "watch": "gulp watch",

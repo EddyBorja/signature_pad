@@ -16,6 +16,12 @@
  *
  */
 
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.SignaturePad = factory());
+}(this, (function () { 'use strict';
+
 function Point(x, y, time) {
   this.x = x;
   this.y = y;
@@ -561,4 +567,6 @@ SignaturePad.prototype.toData = function () {
   return this._data;
 };
 
-export default SignaturePad;
+return SignaturePad;
+
+})));

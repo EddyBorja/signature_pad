@@ -36,7 +36,7 @@ module.exports = [{
     plugins,
   },
   bundle: {
-    dest: 'dist/signature_pad.js',
+    dest: 'dist/signature_pad_umd.js',
     format: 'umd',
     moduleName: 'SignaturePad',
     banner: longBanner,
@@ -58,7 +58,7 @@ module.exports = [{
     plugins,
   },
   bundle: {
-    dest: 'dist/signature_pad.mjs',
+    dest: 'dist/signature_pad.js',
     format: 'es',
     banner: longBanner,
   },
